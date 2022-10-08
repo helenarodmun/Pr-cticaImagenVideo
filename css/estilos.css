@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#imagen {
+    background-image: linear-gradient(rgba( 0,0,0,0.5), rgba(0,0,0,0.5)),url(../media/plataneras.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 300px;
+    padding: 180px 150px;
+    text-align: center;
+    color: white;
+}
+#imagen h1{
+    font-size: 50px;    
+}
+#imagen p{
+    font-size: 20px;
+}
