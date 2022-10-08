@@ -50,7 +50,7 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  padding: 0 10px;  
+  padding: 0 10px;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -69,102 +69,104 @@ nav ul li a:hover {
   text-align: center;
   color: white;
 }
-#imagen h1, #texto-video h1 {
+#imagen h1,
+#texto-video h1 {
   font-size: 3em;
 }
-#imagen p, #texto-video p {
+#imagen p,
+#texto-video p {
   font-size: 1.5em;
 }
-#imagen p:last-child, #texto-video p:last-child {
-    font-size: 1em;
-    padding: 20px 250px;
-  }
-video {   
-   min-width: 100%;
-   min-height: 80%;
-   width: 100px;
-   position: fixed;
-   z-index: -1;
-   /*centrado del video*/
-   left:50%;
-   transform: translateX(-50%) translateY(-50%);
-   top: 50%;   
+#imagen p:last-child,
+#texto-video p:last-child {
+  font-size: 1em;
+  padding: 20px 250px;
 }
-#texto-video{
-    background-color: rgba(0, 0, 0, 0.5);
-    color:white;   
-    padding: 120px 150px 20px 80px;
-    text-align: center;
+video {
+  min-width: 100%;
+  min-height: 80%;
+  width: 100px;
+  position: fixed;
+  z-index: -1;
+  /*centrado del video*/
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+}
+#texto-video {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 120px 150px 20px 80px;
+  text-align: center;
 }
 article {
-    margin: 100px 500px 100px 500px;
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border: solid black;
-    color: black;
-    margin-top: 500px;
-    text-align: justify;
-    font-weight: bolder;
-    font-size: 1.2em;
-    font-style: italic;
-    box-shadow: 5px 5px 40px; 
+  margin: 100px 500px 100px 500px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid black;
+  color: black;
+  margin-top: 500px;
+  text-align: justify;
+  font-weight: bolder;
+  font-size: 1.2em;
+  font-style: italic;
+  box-shadow: 5px 5px 40px;
 }
-#acercaDe{
-    background-color: #919292;
-    padding: 155px 100px;      
+#acercaDe {
+  background-color: #919292;
+  padding: 155px 100px;
 }
-aside{
-    position: absolute;
-    float: left;
-    right: 300px;
-    top: 20%;
-    padding: 15px;
-    background-color: rgb(214, 209, 214);
-    border: solid rgb(0, 0, 0);
-    font-size: 16px;   
-    width: 30%;
-    height: 50%;
-    margin-right: 10px; 
-    box-shadow: 5px 5px 40px; 
-    
+aside {
+  position: absolute;
+  float: left;
+  right: 300px;
+  top: 20%;
+  padding: 15px;
+  background-color: rgb(214, 209, 214);
+  border: solid rgb(0, 0, 0);
+  font-size: 16px;
+  width: 30%;
+  height: 50%;
+  margin-right: 10px;
+  box-shadow: 5px 5px 40px;
 }
 aside ul {
-    padding: 30px;
+  padding: 30px;
 }
-aside li{
-    padding: 15px;
-    font-size: 1.2em;
+aside li {
+  padding: 15px;
+  font-size: 1.2em;
 }
-footer {     
-    width: 100%;
-    background-color:rgb(250, 248, 248); 
-    font-size: 0.8em;}
+footer {
+  width: 100%;
+  background-color: rgb(250, 248, 248);
+  font-size: 0.8em;
+}
 .container_footer {
-    display:flex;
-   
-    justify-content: space-around;
-    margin-bottom: 0;
+  display: flex;
+
+  justify-content: space-around;
+  margin-bottom: 0;
 }
 .box_footer {
-    display:flex; 
-    flex-direction: column;
-    padding: 30px 50px 5px 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px 5px 50px;
 }
 .box_footer .datos {
-    margin-top: 30px;
-    color:black; 
-    font-weight: bolder;
+  margin-top: 30px;
+  color: black;
+  font-weight: bolder;
 }
 .box_footer h3 {
-    margin-bottom: 5px; 
-    color: black;
-    font-weight:bolder;
-}  
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bolder;
+}
 .box_footer a {
-    margin-top: 5px;
-    color: black; 
-}  
-.box_footer a:hover{
-    color:rgb(133, 130, 130);
-}  
-
+  margin-top: 5px;
+  color: black;
+}
+.box_footer a:hover {
+  color: rgb(133, 130, 130);
+}
